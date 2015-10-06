@@ -11,7 +11,7 @@ public class Program {
 		
 		ForkJoinPool commonPool = ForkJoinPool.commonPool();
 		
-		int[] result = commonPool.invoke(new MergeTask(as, 0, 4));
+		int[] result = commonPool.invoke(new MergeTask(as, 0, as.length - 1));
 		
 		System.err.println(Arrays.toString(result));
 	}
