@@ -7,7 +7,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		int[][] as = new int[][]{{1,2,5,6,9},{3,4,5,7},{8,10,19},{15,16},{20}};
+		int[][] as = new int[][]{{1,2,5,6,9},{3,4,5,7},{8,10,19},{15,16},{20},{0}};
 		
 		ForkJoinPool commonPool = ForkJoinPool.commonPool();
 		
